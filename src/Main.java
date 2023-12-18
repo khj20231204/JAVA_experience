@@ -1,9 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello world!");
-
-        Ex_list el = new Ex_list();
+        Ex_List el = new Ex_List();
         el.explain();
     }
 }
