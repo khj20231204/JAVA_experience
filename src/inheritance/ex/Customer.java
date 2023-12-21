@@ -1,11 +1,9 @@
-/*
+package inheritance.ex;/*
 * 일반 고객: 고객 아이디, 고객 이름, 고객 등급, 보너스 포인트, 보너스 포인트 적립비율
 * 물품 구매시 1%의 보너스 포인터 적립
 * */
 
-
 public class Customer {
-
     protected String id;
     protected String name;
     protected String grade;

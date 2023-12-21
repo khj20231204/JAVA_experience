@@ -1,11 +1,10 @@
-/*
+package inheritance.ex;/*
 * 단골 고객은 10%를 할인 해 준다.
 * 보너스 포인트는 제품 가격의 5%를 적립해 준다.
 * 전문 상담원이 배정된다.
 */
 
-public class VIPCustomer extends Customer{
-
+public class VIPCustomer extends Customer {
     public double discount;
     public String agentID;
     public VIPCustomer(){
