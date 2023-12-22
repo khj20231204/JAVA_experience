@@ -13,6 +13,8 @@ public class VIPCustomer extends Customer {
         this.bonusRate = 0.05;
         this.discount = 0.1;
         this.agentID = "12923";
+
+        System.out.println("VIPCustomer() 생성자 호출");
     }
 
     public String showCustomerInfo(){

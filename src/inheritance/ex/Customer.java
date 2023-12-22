@@ -46,6 +46,8 @@ public class Customer {
     public Customer(){
         this.grade = "SILVER";
         this.bonusRate = 0.01;
+
+        System.out.println("Customer() 생성자 호출");
     }
 
     public void calcPrice(int price){

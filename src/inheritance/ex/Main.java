@@ -3,6 +3,8 @@ package inheritance.ex;
 public class Main {
     public static void main(String[] args) {
 
+        VIPCustomer v = new VIPCustomer();
+
         Customer c = new Customer();
         c.setId("1111");
         c.setName("김유신");
