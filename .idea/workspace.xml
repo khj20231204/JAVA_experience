@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077729d6-a10d-43f9-a9cc-4946b08b6e6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArrayApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boxing_Unboxing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_lang_object_override.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModified_child/ex/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModified_child/ex/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/accessModified_child/ex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModified_child/ex/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModified_parents/ex/Parents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModified_parents/ex/Parents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/ex/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/ex/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/ex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/ex/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/ex/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/ex/VIPCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/inheritance/ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.inheritance.ex.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="inheritance" />
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.inheritance.ex.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.accessModified_child.ex.Main" />
+        <item itemvalue="Application.inheritance.ex.Main" />
         <item itemvalue="Application.accessModifed.ex.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
