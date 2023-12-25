@@ -8,9 +8,9 @@ public class Main {
 
         Java_lang_object_override oe = new Java_lang_object_override("abcd");
         Java_lang_object_override oe1 = new Java_lang_object_override("abcde");
-
         //System.out.println(oe.equals(oe1));
 
+        //equals 체크
         String str1 = new String("abc");
         String str2 = new String("abc");
         String str3 = "abc";
@@ -25,5 +25,11 @@ public class Main {
 
         System.out.println("a:"+(val1 == val2));  //false
         System.out.println(val1.equals(val2));  //true
+
+        StringApi sa = new StringApi();
+        //sa.solution();
+
+        //다형성
+
     }
 }
