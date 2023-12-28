@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077729d6-a10d-43f9-a9cc-4946b08b6e6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classApi/ex/ClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classApi/ex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/BookShelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Shelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceMulti_ch13/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceMulti_ch13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceMulti_ch13/userBuy/UserBuyInf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceMulti_ch13/userSell/UserSellInf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_ch13/domain/userinfo/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_ch13/domain/userinfo/dao/UserInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_ch13/domain/userinfo/dao/mysql/UserInfoMySqlDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_ch13/domain/userinfo/dao/oracle/UserInfoOracleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_ch13/web/userinfo/UserInfoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_ch13/web/userinfo/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface_/ex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface_/ex/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/ex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/ex/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classApi/ex/ClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classApi/ex/ClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classApi/ex/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classApi/ex/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/BookShelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceClassMuti_ch13/Shelf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +54,7 @@
     "Application.accessModifed.ex.Main.executor": "Run",
     "Application.accessModified_child.ex.Main.executor": "Run",
     "Application.inheritance.ex.Main.executor": "Run",
+    "Application.interfaceClassMuti_ch13.Main.executor": "Run",
     "Application.interfaceMulti_ch13.Main.executor": "Run",
     "Application.interface_.ex.Main.executor": "Run",
     "Application.my_ch13.web.userInfo.UserInfoClient.executor": "Run",
@@ -96,19 +85,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaceClassMuti_ch13.BookShelfTest" />
-      <module name="JAVA_Lecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaceClassMuti_ch13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classApi.ex.Main" />
       <module name="JAVA_Lecture" />
@@ -128,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interface_ch13.web.userinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interfaceClassMuti_ch13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceClassMuti_ch13.Main" />
+      <module name="JAVA_Lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaceClassMuti_ch13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,7 +153,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BookShelfTest" />
+        <item itemvalue="Application.interfaceClassMuti_ch13.Main" />
         <item itemvalue="Application.interfaceMulti_ch13.Main" />
         <item itemvalue="Application.my_ch13.web.userInfo.UserInfoClient" />
         <item itemvalue="Application.UserInfoClient" />

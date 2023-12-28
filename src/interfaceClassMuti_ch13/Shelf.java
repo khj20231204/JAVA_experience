@@ -3,39 +3,34 @@ package interfaceClassMuti_ch13;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Shelf {
+    public class Shelf {
 
-    private ArrayList<String> shelf;
+        private ArrayList<String> shelf;
 
-    public Shelf(){
-        System.out.println("shelf 생성자 호출");
-        shelf = new ArrayList<String>();
-    }
-
-    public ArrayList<String> getShelf(){
-        return shelf;
-    }
-
-    public void addShelf(String title){
-        shelf.add(title);
-
-        for(String s : shelf){
-            System.out.println("addshelf: "+s);
+        public Shelf(){
+            System.out.println("shelf 생성자 호출");
+            shelf = new ArrayList<String>();
         }
 
-        System.out.println("addshelf size: "+shelf.size());
+        public ArrayList<String> getShelf(){
+            return shelf;
+        }
 
-        System.out.println("addshelf의 shelf: "+shelf);
+        public void addShelf(String title){
+            shelf.add(title);
+        }
+
+        public String deleteShelf(){
+            String str = "";
+
+            if(shelf.size()>0)
+               str = shelf.remove(0);
+
+            return str;
+        }
+
+        //BookShelf
+        public int getCount(){
+               return shelf.size();
+        }
     }
-
-    public void deleteShelf(){
-        shelf.remove(0);
-    }
-
-    //BookShelf
-    public int getCount(){
-        System.out.println("getCount의 shelf: "+shelf);
-
-        return shelf.size();
-    }
-}

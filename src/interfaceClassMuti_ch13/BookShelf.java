@@ -7,8 +7,8 @@ public class BookShelf extends Shelf implements Queue{
     }
 
     @Override
-    public void deQueue() {
-        deleteShelf();
+    public String deQueue() {
+        return deleteShelf();
     }
 
     @Override
