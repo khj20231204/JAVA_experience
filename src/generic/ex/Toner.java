@@ -1,6 +1,8 @@
 package generic.ex;
 
-public class Toner {
+import java.lang.management.MemoryNotificationInfo;
+
+public class Toner extends Material {
     private int productDate;
     private int expirationDate;
     private String manufacturingName;

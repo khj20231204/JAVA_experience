@@ -1,6 +1,6 @@
 package generic.ex;
 
-public class ThreeDPrintGeneric<T>{
+public class ThreeDPrintGeneric<T extends Material>{
 
     private T material;
 

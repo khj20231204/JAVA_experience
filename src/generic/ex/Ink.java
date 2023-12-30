@@ -1,6 +1,6 @@
 package generic.ex;
 
-public class Ink {
+public class Ink extends Material{
 
     private int productDate;
     private int expirationDate;
