@@ -14,12 +14,12 @@ public class Main {
         String str1 = new String("abc");
         String str2 = new String("abc");
         String str3 = "abc";
-
+/*
         System.out.println(str1.equals(str2)); //true
         System.out.println(str1 == str2); //false
         System.out.println(str1.equals(str3)); //true
         System.out.println(str1 == str3); //false
-
+*/
         Integer val1 = 300;
         Integer val2 = 300;
 
@@ -28,8 +28,5 @@ public class Main {
 
         StringApi sa = new StringApi();
         //sa.solution();
-
-        //다형성
-
     }
 }

@@ -36,5 +36,4 @@ package anonymousObj.ex;
     void methodParamObj(Person p){
         p.wake();
     }
-
 }
