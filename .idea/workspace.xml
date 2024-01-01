@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077729d6-a10d-43f9-a9cc-4946b08b6e6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/anonymousInterface/ex/Anonymous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anonymousInterface/ex/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anonymousInterface/ex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anonymousInterface/ex/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedClass/ex/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedClass/ex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/staticMemberUse/ex/StaticMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedClass/ex/ClassUseFieldMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedClass/ex/FieldMethodUseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anonymousObj/ex/AnonymousObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anonymousObj/ex/AnonymousObj.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
