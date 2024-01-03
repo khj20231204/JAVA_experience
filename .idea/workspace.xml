@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="077729d6-a10d-43f9-a9cc-4946b08b6e6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nestedClass/ex/ClassUseFieldMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedClass/ex/FieldMethodUseClass.java" afterDir="false" />
+    <list default="true" id="077729d6-a10d-43f9-a9cc-4946b08b6e6b" name="Changes" comment="s">
+      <change afterPath="$PROJECT_DIR$/src/collectionframework/ex/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable_compare/ex/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,41 +41,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BookShelfTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericPrinterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeDPrintTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInfoClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.accessModifed.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.accessModified_child.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.anonymousInterface.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.genericMethod.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.genericMethod2.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inheritance.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.interfaceClassMuti_ch13.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.interfaceMulti_ch13.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.interface_.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.my_ch13.web.userInfo.UserInfoClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nestedClass.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.polymorphism.ex.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21 (2)&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/khj2023/IdeaProjects/JAVA_Lecture/src/inheritance/ex&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookShelfTest.executor": "Run",
+    "Application.GenericMethod.executor": "Run",
+    "Application.GenericPrinterTest.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ThreeDPrintTest.executor": "Run",
+    "Application.UserInfoClient.executor": "Run",
+    "Application.accessModifed.ex.Main.executor": "Run",
+    "Application.accessModified_child.ex.Main.executor": "Run",
+    "Application.anonymousInterface.ex.Main.executor": "Run",
+    "Application.collectionframework.ex.Main.executor": "Run",
+    "Application.genericMethod.ex.Main.executor": "Run",
+    "Application.genericMethod2.ex.Main.executor": "Run",
+    "Application.inheritance.ex.Main.executor": "Run",
+    "Application.interfaceClassMuti_ch13.Main.executor": "Run",
+    "Application.interfaceMulti_ch13.Main.executor": "Run",
+    "Application.interface_.ex.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.my_ch13.web.userInfo.UserInfoClient.executor": "Run",
+    "Application.nestedClass.ex.Main.executor": "Run",
+    "Application.polymorphism.ex.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21 (2)",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/khj2023/IdeaProjects/JAVA_Lecture/src/inheritance/ex",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/inheritance/ex" />
@@ -88,11 +89,12 @@
       <recent name="$PROJECT_DIR$/src/interface_ch13/domain/userinfo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collectionframework.ex" />
       <recent name="generic.ex" />
       <recent name="generic_.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.nestedClass.ex.Main">
+  <component name="RunManager" selected="Application.collectionframework.ex.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JAVA_Lecture" />
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="genericMethod2.ex.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genericMethod2.ex.Main" />
+    <configuration name="collectionframework.ex.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionframework.ex.Main" />
       <module name="JAVA_Lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="genericMethod2.ex.*" />
+          <option name="PATTERN" value="collectionframework.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.collectionframework.ex.Main" />
         <item itemvalue="Application.nestedClass.ex.Main" />
         <item itemvalue="Application.anonymousInterface.ex.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.genericMethod2.ex.Main" />
       </list>
     </recent_temporary>
   </component>
