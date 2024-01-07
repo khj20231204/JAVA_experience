@@ -1,4 +1,4 @@
-package collectionframework.ex;
+package iterator.ex;
 
 import java.util.*;
 
