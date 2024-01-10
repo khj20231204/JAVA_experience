@@ -14,7 +14,6 @@ public class Main {
         GenericTypeVal.func("anonymous");
         GenericTypeVal.func(345);
 
-
         //GenericMethod
         Point<Integer, Double> p1 = new Point<>(2,8.6);
         Point<Integer, Double> p2 = new Point<>(7,2.3);
