@@ -1,10 +1,8 @@
 package comparable_compare.ex;
 
-import java.sql.Array;
 import java.util.*;
-import java.util.Set;
 
-public class Main {
+public class TestMain {
     public static void main(String[] str){
 
         String[] strArray = new String[]{"r","t","E","B","p","a"};
@@ -21,7 +19,6 @@ public class Main {
         for(Integer i : integerArray) System.out.println(i);
     }
 }
-
 class Desending implements Comparator{
     @Override
     public int compare(Object o1, Object o2) {

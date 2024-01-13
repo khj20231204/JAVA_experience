@@ -3,11 +3,8 @@ package nestedClass.ex;
 public class ClassUseFieldMethod {
     int myfield;
     static int staticFiled;
-
     public void instanceMethod(){}
-
     public static void staticMethod(){}
-
     class instanceClass{
         void method(){
             myfield = 10;
@@ -17,7 +14,6 @@ public class ClassUseFieldMethod {
             staticMethod();
         }
     }
-
     static class MyStaticClass{
         void method(){
             //myfield = 10;  error

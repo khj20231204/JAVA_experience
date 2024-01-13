@@ -1,9 +1,6 @@
 package interface_.ex;
 
-import java.io.FileInputStream;
-import java.util.Properties;
-
-public class Main {
+public class TestMain {
 
     public static void main(String[] args){
         RemoteControl rc;
@@ -17,18 +14,17 @@ public class Main {
         Television tv = new Television();
         Audio audio = new Audio();
 
-        Main.paramInterface(tv);
-        Main.paramInterface(audio);
+        TestMain.paramInterface(tv);
+        TestMain.paramInterface(audio);
 
-        Main.paramInterface(new Television());
-        Main.paramInterface(new Audio());
+        TestMain.paramInterface(new Television());
+        TestMain.paramInterface(new Audio());
 
 
     }
     public static void paramInterface(RemoteControl rc){
 
     }
-
     public static RemoteControl returnInterface(){
         Television tv = new Television();
         Audio audio = new Audio();

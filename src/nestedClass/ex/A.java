@@ -1,7 +1,6 @@
 package nestedClass.ex;
 
 public class A {
-
     public A(){
         System.out.println("A constructor");
     }
@@ -20,7 +19,6 @@ public class A {
             System.out.println("B class static method2");
         }
     }
-
     static class C{
         C(){
             System.out.println("static C constructor");
@@ -35,7 +33,6 @@ public class A {
             System.out.println("C class static method2");
         }
     }
-
     void methodA(){
         class D{
             D(){
@@ -57,7 +54,6 @@ public class A {
         d.method();  //D class's method
         D.method2();  //D class static method2
     }
-
     static void staticMethodA(){
         class E{
             E(){
@@ -79,7 +75,6 @@ public class A {
         e.method();  //E class's method
         E.method2();  //E class static method2
     }
-
     void useAClass(){
         C c = new C();
     }

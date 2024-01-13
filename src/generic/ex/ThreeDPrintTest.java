@@ -1,7 +1,4 @@
 package generic.ex;
-
-import javax.swing.plaf.TableHeaderUI;
-
 public class ThreeDPrintTest {
     public static void main(String[] args){
         Ink ink = new Ink();

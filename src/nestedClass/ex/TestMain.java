@@ -1,6 +1,6 @@
 package nestedClass.ex;
 
-public class Main {
+public class TestMain {
     public static void main(String[] str){
         //A class
         A a = new A();  //A constructor

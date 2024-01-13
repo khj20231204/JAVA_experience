@@ -3,7 +3,7 @@ package hashset.ex;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args){
 
         Person p1 = new Person("abc",13);
@@ -27,7 +27,6 @@ public class Main {
         System.out.println(p2.hashCode());
     }
 }
-
 class Person{
     String name;
     int age;
@@ -36,7 +35,6 @@ class Person{
         this.name = name;
         this.age = age;
     }
-
     @Override
     public boolean equals(Object obj){
         System.out.println("-- equals ----");
@@ -51,14 +49,12 @@ class Person{
 
         return false;
     }
-
     @Override
     public int hashCode(){
         return name.hashCode();  //name save
         //return age;  //age save
         //return (name + age).hashCode(); //naem and age save
     }
-
     @Override
     public String toString(){
         return name + ":" + age;

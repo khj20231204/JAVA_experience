@@ -1,11 +1,10 @@
 package classApi.ex;
 
-import javax.naming.ldap.Control;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
 
         Class forname_val2 = Class.forName("classApi.ex.ClassExample");

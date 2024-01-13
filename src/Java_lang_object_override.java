@@ -5,7 +5,6 @@ public class Java_lang_object_override {
     public Java_lang_object_override(String name){
         this.name = name;
     }
-
     @Override
     public boolean equals(Object obj) {
         if(obj instanceof Java_lang_object_override){

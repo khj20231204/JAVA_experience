@@ -1,8 +1,7 @@
 package genericMethod.ex;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args){
-
         //GenericTypeVal
         GenericTypeVal<Long, Double, String> gtv = new GenericTypeVal<>(11l,22d);
         //여기에서 A,B,C 타입 설정 , 초기화는 A,B 타입만 해당

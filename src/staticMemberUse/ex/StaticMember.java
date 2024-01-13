@@ -1,12 +1,10 @@
 package staticMemberUse.ex;
 
 public class StaticMember {
-
     int instanceMember;
     static int staticMember = 11;
     public void instanceMethod(int param){
         System.out.println("instanceMethod");
-
         System.out.println("staticMember:"+staticMember);
         this.instanceMember = param;
 

@@ -21,8 +21,6 @@ public class ArrayApi {
 
         Arrays.fill(str1,"fill");
         System.out.println(Arrays.toString(str1));  //[fill, fill, fill]
-
-
     }
 }
 

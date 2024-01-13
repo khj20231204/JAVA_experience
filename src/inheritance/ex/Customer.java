@@ -8,52 +8,40 @@ public class Customer {
     protected String name;
     protected String grade;
     public int bonusPoint;
-
     public String getId() {
         return id;
     }
-
     public String getName() {
         return name;
     }
-
     public String getGrade() {
         return grade;
     }
-
     public int getBonusPoint() {
         return bonusPoint;
     }
-
     public double getBonusRate() {
         return bonusRate;
     }
-
     public void setId(String id) {
         this.id = id;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setBonusPoint(int bonusPoint) {
         this.bonusPoint = bonusPoint;
     }
-
     public double bonusRate;
-
     public Customer(){
         this.grade = "SILVER";
         this.bonusRate = 0.01;
 
         System.out.println("Customer() 생성자 호출");
     }
-
     public void calcPrice(int price){
         bonusPoint += (int) (price*bonusRate);
     }
-
     public String showCustomerInfo(){
         return this.name+"님의 등급은 " + this.grade +"이며, 보너스 포인트는 " + this.bonusPoint + "입니다.";
     }

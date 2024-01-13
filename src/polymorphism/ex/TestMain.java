@@ -2,7 +2,7 @@
 
 package polymorphism.ex;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args){
         // A class
         PolyMain pm = new PolyMain();

@@ -1,12 +1,10 @@
 package stream.ex;
 
-import java.lang.reflect.Array;
 import java.util.*;
-import java.util.concurrent.RejectedExecutionHandler;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args){
         //list stream
         List<Integer> list = Arrays.asList(1,2,3,4,5);
@@ -49,6 +47,5 @@ public class Main {
         strStream4.forEach(t->System.out.println(t)); //acb
         strStream5.forEach(t->System.out.println(t)); //acb
         strStream6.forEach(t->System.out.println(t)); //acb
-
     }
 }

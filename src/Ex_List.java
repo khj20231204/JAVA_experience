@@ -48,7 +48,6 @@ public class Ex_List {
 
         ml.stream().forEach(System.out::println);  //toString() 오버라이딩 사용
     }
-
     class MyList{
 
         int number;
@@ -58,11 +57,9 @@ public class Ex_List {
             System.out.println("---- create ----");
             return this;
         }
-
         public int getNumber(){
             return number;
         }
-
         public boolean equals(Object o1){
             System.out.println("--- equals ---");
             if(o1 instanceof MyList){
@@ -73,7 +70,6 @@ public class Ex_List {
 
             return false;
         }
-
         public String toString(){
             return "value:" + this.number;
         }

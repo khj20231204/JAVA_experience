@@ -1,6 +1,6 @@
 package interfaceClassMuti_ch13;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args){
         Queue bookQueue = new BookShelf();
 

@@ -1,19 +1,15 @@
 package interface_.ex;
 
 public class SmartTelevision implements RemoteControl, Searchable {
-
     private int volume;
-
     @Override
     public void turnOn() {
         System.out.println("TV turn on");
     }
-
     @Override
     public void turnOff() {
         System.out.println("TV turn off");
     }
-
     @Override
     public void setVolume(int volume) {
         if(MAX_VOLUME < volume){
@@ -26,7 +22,6 @@ public class SmartTelevision implements RemoteControl, Searchable {
 
         System.out.println("now Television's volume is "+this.volume);
     }
-
     @Override
     public void search(String url) {
         System.out.println("now Search "+ url);

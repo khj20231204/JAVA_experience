@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args) {
         //구현 객체
         FunctionalInterface fi = new FunctionalInterface() {
@@ -27,14 +27,12 @@ public class Main {
         });
 
         list1.sort((o1, o2)-> o1.compareTo(o2)*(-1));
-
         list1.stream().forEach(System.out::println);
 
         //매개변수로 함수형 인터페이스를 사용
         FunctionalInterface fiPlus = (int a, int b) -> a+b;
 
         int x = 6, y = 3;
-
         int result = functionalMethod(fiPlus,x,y); //매개변수로 함수형 인터페이스 참조변수를 할당
         System.out.println("result:"+result);
 
@@ -45,13 +43,10 @@ public class Main {
         FunctionalInterface fi3 = returnFI();
         fi3.methodOfLamda(9,4);
     }
-
     static int functionalMethod(FunctionalInterface fi, int x, int y){
         return fi.methodOfLamda(x,y);
     }
-
     static FunctionalInterface returnFI(){
-
         return (int a, int b) -> a-b;
     }
 }

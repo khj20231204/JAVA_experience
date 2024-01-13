@@ -2,7 +2,6 @@ import java.nio.charset.StandardCharsets;
 import java.text.StringCharacterIterator;
 
 public class StringApi {
-
     public void solution(){
         byte[] byteData = {98,121,116,101,68,97,116,97};  //아스키코드
 

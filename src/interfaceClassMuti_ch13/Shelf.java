@@ -4,22 +4,17 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
     public class Shelf {
-
         private ArrayList<String> shelf;
-
         public Shelf(){
             System.out.println("shelf 생성자 호출");
             shelf = new ArrayList<String>();
         }
-
         public ArrayList<String> getShelf(){
             return shelf;
         }
-
         public void addShelf(String title){
             shelf.add(title);
         }
-
         public String deleteShelf(){
             String str = "";
 
@@ -28,7 +23,6 @@ import java.util.ArrayList;
 
             return str;
         }
-
         //BookShelf
         public int getCount(){
                return shelf.size();

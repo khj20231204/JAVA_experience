@@ -1,6 +1,6 @@
 package inheritance.ex;
 
-public class Main {
+public class TestMain {
     public static void main(String[] args) {
 
         VIPCustomer v = new VIPCustomer();

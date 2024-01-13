@@ -16,7 +16,6 @@ public class VIPCustomer extends Customer {
 
         System.out.println("VIPCustomer() 생성자 호출");
     }
-
     public String showCustomerInfo(){
         return this.name+"님의 등급은 " + this.grade +"이며, 보너스 포인트는 " + this.bonusPoint + "입니다. \n"
                 + "할인율은" + this.discount + "이고, 상담원ID는 " + this.agentID + "입니다.";
