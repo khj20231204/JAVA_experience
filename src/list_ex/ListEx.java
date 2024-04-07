@@ -1,6 +1,8 @@
+package list_ex;
+
 import java.util.LinkedList;
 
-public class Ex_List {
+public class ListEx {
     void explain(){
         //general data control
         LinkedList<Integer> list = new LinkedList<>();

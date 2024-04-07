@@ -1,7 +1,9 @@
+import list_ex.ListEx;
+
 public class Main {
     public static void main(String[] args) {
 
-        Ex_List el = new Ex_List();
+        ListEx el = new ListEx();
         //el.explain();
 
         ArrayApi arry = new ArrayApi();

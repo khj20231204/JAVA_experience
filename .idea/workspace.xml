@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077729d6-a10d-43f9-a9cc-4946b08b6e6b" name="Changes" comment="s">
-      <change afterPath="$PROJECT_DIR$/src/collectionframework/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_ex/ListEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_ex/ListEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_ex/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list_ex/ListEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +72,7 @@
     "Application.interfaceMulti_ch13.Main.executor": "Run",
     "Application.interfaceTest.ex.Main.executor": "Run",
     "Application.interface_.ex.Main.executor": "Run",
+    "Application.list_ex.TestMain.executor": "Run",
     "Application.main.executor": "Run",
     "Application.my_ch13.web.userInfo.UserInfoClient.executor": "Run",
     "Application.nestedClass.ex.Main.executor": "Run",
@@ -104,7 +109,7 @@
       <recent name="generic_.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.collectionframework.TestMain">
+  <component name="RunManager" selected="Application.list_ex.TestMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JAVA_Lecture" />
@@ -151,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functionalInterface.ex.TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalInterface.ex.TestMain" />
+    <configuration name="list_ex.TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list_ex.TestMain" />
       <module name="JAVA_Lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functionalInterface.ex.*" />
+          <option name="PATTERN" value="list_ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.list_ex.TestMain" />
         <item itemvalue="Application.collectionframework.TestMain" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.char_ex.TestMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.functionalInterface.ex.TestMain" />
       </list>
     </recent_temporary>
   </component>
