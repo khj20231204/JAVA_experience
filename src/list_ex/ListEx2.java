@@ -54,7 +54,7 @@ public class ListEx2 {
       list1.contains(new MyListInt(4));
       list1.remove(new MyListInt(4));
       list1.indexOf(new MyListInt(4));
-      //list1.get(new MyListInt(4); error
+      list1.get(list1.indexOf(new MyListInt(4)));
 
       //String형 add, contains, remove, indexof
       List<MyListString> list2 = new ArrayList<>();
@@ -62,6 +62,7 @@ public class ListEx2 {
       list2.contains(new MyListString("victory"));
       list2.remove(new MyListString("victory"));
       list2.indexOf(new MyListString("victory"));
+      list2.get(list2.indexOf(new MyListString("victory")));
    }
 
 }

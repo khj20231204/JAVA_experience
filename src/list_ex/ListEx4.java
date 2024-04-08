@@ -22,6 +22,7 @@ public class ListEx4 {
       list1.contains(MyListStaticInt.create(4));
       list1.remove(MyListStaticInt.create(4));
       list1.indexOf(MyListStaticInt.create(4));
+      list1.get(list1.indexOf(MyListStaticInt.create(4)));
 
       //String형
       List<MyListStaticString> list2 = new ArrayList<>();
@@ -29,6 +30,7 @@ public class ListEx4 {
       list2.contains(MyListStaticString.create("victory"));
       list2.remove(MyListStaticString.create("victory"));
       list2.indexOf(MyListStaticString.create("victory"));
+      list2.get(list2.indexOf(MyListStaticString.create("victory")));
    }
 }
 class MyListStaticInt{
