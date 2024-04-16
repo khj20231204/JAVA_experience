@@ -12,6 +12,9 @@ public class TestMain {
         SortedEx se = new SortedEx();
         //se.solution();
 
+        ClassSort cs = new ClassSort();
+        cs.classSortSolution();
+
         Stream<Student> studentStream = Stream.of(
               new Student("abbe",3,300),
               new Student("dfeg",4,124),
@@ -27,6 +30,6 @@ public class TestMain {
               new Student2("wrc",93,5436)
         );
 
-        student2Stream.sorted(Comparator.comparing(Student2::getTotalScore)).forEach(System.out::println);
+        //student2Stream.sorted(Comparator.comparing(Student2::getTotalScore)).forEach(System.out::println);
     }
 }
