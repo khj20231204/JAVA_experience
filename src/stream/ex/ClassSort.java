@@ -32,12 +32,12 @@ public class ClassSort {
       //sort
       ////sorted(람다식)
       list.stream().sorted((i1, i2) -> i1.name.compareTo(i2.name)).forEach(s -> System.out.println(s.name));
-      list.stream().sorted((i1,i2) -> i1.ban - i2.ban).forEach(i -> System.out.println(i.ban));
+      list.stream().sorted((i1, i2) -> i1.ban - i2.ban).forEach(i -> System.out.println(i.ban));
       ////sorted(Comparator.comparing(변수)) - reversed 불가
       list.stream().sorted(Comparator.comparing(i -> i.name)).forEach(s -> System.out.println(s.name));
       list.stream().sorted(Comparator.comparing(i -> i.ban)).forEach(s -> System.out.println(s.ban));
       ////sorted(Comparator.comparing(클래스::함수)) - revered 가능
-      list.stream().sorted(Comparator.comparing(Student::getBan).reversed()).forEach(s -> System.out.println(s.ban));
+      list.stream().sorted(Comparator.comparing(Student::getBan)).forEach(s -> System.out.println(s.ban));
       list.stream().sorted(Comparator.comparing(Student::getName).reversed()).forEach(s -> System.out.println(s.name));
 
       //filter
