@@ -2,7 +2,7 @@ import list_ex.ListEx;
 
 public class Main {
     public static void main(String[] args) {
-
+        /*
         ListEx el = new ListEx();
         //el.explain();
 
@@ -31,5 +31,13 @@ public class Main {
 
         StringApi sa = new StringApi();
         //sa.solution();
+        */
+
+        IntPrimitiveWrapperClassChange ipwc = new IntPrimitiveWrapperClassChange();
+        ipwc.intPrimitiveWrapperClassChangeFunc();
+
+        CharPrimitiveWrapperClassChange cpwc = new CharPrimitiveWrapperClassChange();
+        cpwc.charPrimitiveWrapperClassChange();
+
     }
 }

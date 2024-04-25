@@ -4,7 +4,6 @@ public class TwoDimentionArraySort {
 
    public void twoDimentionArraySortSolution(){
       int[][] person = {{34,173},{28, 182},{30, 171}};
-
       //sorted
       ////sorted(람다식)
       Arrays.stream(person).sorted((i1, i2) -> i1[0] - i2[0]).forEach(s -> System.out.println(s[0]));
@@ -16,5 +15,9 @@ public class TwoDimentionArraySort {
 
       //toArray
       int[][] person2 = Arrays.stream(person).toArray(int[][]::new);
+   }
+
+   public void twoDimentionsArraySortSolution2(){
+      String[][] strData = {{"a","b"},{"c","D"},{"e,f"}};
    }
 }
