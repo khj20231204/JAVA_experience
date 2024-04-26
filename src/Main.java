@@ -34,7 +34,7 @@ public class Main {
         */
 
         IntPrimitiveWrapperClassChange ipwc = new IntPrimitiveWrapperClassChange();
-        ipwc.intPrimitiveWrapperClassChangeFunc();
+        //ipwc.intPrimitiveWrapperClassChangeFunc();
 
         CharPrimitiveWrapperClassChange cpwc = new CharPrimitiveWrapperClassChange();
         cpwc.charPrimitiveWrapperClassChange();

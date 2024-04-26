@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.*;
 
 public class CharPrimitiveWrapperClassChange {
    public void charPrimitiveWrapperClassChange(){
@@ -9,8 +10,6 @@ public class CharPrimitiveWrapperClassChange {
       List<Character> listTmp = new ArrayList<>();
       char charTmp = 'd';
       listTmp.add(charTmp);
-
-
 
       /*** char -> Character ***/
       char c1 = 'c';
@@ -24,30 +23,37 @@ public class CharPrimitiveWrapperClassChange {
       Character ch2 = 'c';
       char c2 = Character.valueOf(ch2);
 
-      /*** char[] -> Character[] ***/
-      char[] c3 = {'a','b','c'};
-      Character[] ch3 = Arrays.stream(c3).mapToObj.toArray(Character[]::new);
-
-      /*** Character[] -> char[] ***/
-
-
-
-      //---------------------------------- String -------------------
-      /*** char -> String ***/
-
-      /*** Character -> String ***/
-
-      /*** String -> char ***/
-
-      /*** String -> Character ***/
-
-      /*** char[] -> String ***/
-
-      /*** Character[] -> String ***/
-
-      /*** String -> char[] ***/
-
       /*** String -> Character[] ***/
       String str = "victory";
-      Character[] ch5 = str.chars().mapToObj(c -> (char)c).toArray(Character[]::new);   }
+      Character[] ch5 = str.chars().mapToObj(c -> (char)c).toArray(Character[]::new);
+
+      //--------------------------- List -----------------------
+      /*** char[] -> List ***/
+      char[] charArr = {'a','b','w'};
+      //1)List<Character>로 변환
+      List<Character> charList = IntStream.range(0, charArr.length).mapToObj(i -> charArr[i]).collect(Collectors.toList());
+      //IntStream으로 변환 -> mapToObj로 wrapper클래스로 변환 -> collect로 List로 변환
+      //2)List<char[]>로 변환
+      List<char[]> list = Arrays.asList(charArr);
+
+      /*** List -> char[] ***/
+      //반복문으로
+
+      /*** List<Character> -> String ***/
+      List<Character> charList2 = new ArrayList<>(Arrays.asList('q','w','p'));
+      String strValue = charList2.stream().map(String::valueOf).collect(Collectors.joining());
+
+      int a = 4;
+      char b = 'c';
+      String s = "5";
+
+      String s1 = String.valueOf(a);
+      String s2 = String.valueOf(b);
+
+      Character cc2 = Character.valueOf(b);
+      char ccc2 = Character.valueOf(cc2);
+
+      Integer i = Integer.valueOf(a);
+      int i22 = Integer.valueOf(i);
+   }
 }
