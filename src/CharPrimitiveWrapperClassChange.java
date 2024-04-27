@@ -43,16 +43,20 @@ public class CharPrimitiveWrapperClassChange {
       List<Character> charList2 = new ArrayList<>(Arrays.asList('q','w','p'));
       String strValue = charList2.stream().map(String::valueOf).collect(Collectors.joining());
 
+      //------------------ primitive-wrapper -----------------------
       int a = 4;
       char b = 'c';
       String s = "5";
 
+      /* String <-> int, char */
       String s1 = String.valueOf(a);
       String s2 = String.valueOf(b);
 
+      /* Character <-> char */
       Character cc2 = Character.valueOf(b);
       char ccc2 = Character.valueOf(cc2);
 
+      /* Interger <-> int */
       Integer i = Integer.valueOf(a);
       int i22 = Integer.valueOf(i);
    }
