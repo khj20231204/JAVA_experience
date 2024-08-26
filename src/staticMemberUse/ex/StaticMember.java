@@ -1,5 +1,15 @@
 package staticMemberUse.ex;
 
+//인스턴스 메소드에서 static 변수 사용
+//static메소드에서 일반 변수 사용
+
+//인스턴스 메소드 내에 일반변수 호출 가능
+//인스턴스 메소드 내에 static변수 호출 가능
+
+//static 메소드에 일반변수 호출 가능
+//static 메소드에 static변수 호출 가능
+
+
 public class StaticMember {
     int instanceMember;
     static int staticMember = 11;
