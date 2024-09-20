@@ -1,7 +1,5 @@
 package staticMemberUse.innerclass.ex;
 
-import staticMemberUse.outerclass.ex.GeneralClass;
-
 //일반 클래스
 //static 클래스
 
@@ -23,7 +21,7 @@ class GeneralClass2{ //일반 클래스
 		public void generalMethod() { // 내부 일반 메소드
 			//선언
 			int generalVar2 = 300;
-			static int staticVar2 = 400;
+			//static int staticVar2 = 400; error
 			
 			//사용
 			System.out.println(generalVar);
@@ -33,10 +31,10 @@ class GeneralClass2{ //일반 클래스
 		public static void staticMethod() { //static 메소드
 			//선언
 			int generalVar2 = 300;
-			static int staticVar2 = 500;
+			//static int staticVar2 = 500; error
 			
 			//사용
-			System.out.println(generalVar);
+			//System.out.println(generalVar);
 			System.out.println(staticVar);
 			
 			GeneralClass2 gc = new GeneralClass2();
@@ -48,20 +46,20 @@ class GeneralClass2{ //일반 클래스
 		public void generalMethod() { //일반 메소드
 			//선언
 			int generalVar2 = 300;
-			static int staticVar2 = 500;
+			//static int staticVar2 = 500; error
 			
 			//사용
-			System.out.println(generalVar);
+			//System.out.println(generalVar); error
 			System.out.println(staticVar);
 		}
 		
 		public static void staticMethod() { //static 메소드
 			//선언
 			int generalVar2 = 300;
-			static int staticVar2 = 500;
+			//static int staticVar2 = 500;
 			
 			//사용
-			System.out.println(generalVar);
+			//System.out.println(generalVar); error
 			System.out.println(staticVar);
 			
 			GeneralClass2 gc = new GeneralClass2();

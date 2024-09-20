@@ -16,7 +16,7 @@ class GeneralClass{ //일반 클래스
 	public void generalMethod() { //일반 메소드
 		//선언
 		int generalVar2 = 300;
-		static int staticVar2 = 400;
+		//static int staticVar2 = 400; error
 		
 		//사용
 		System.out.println(generalVar);
@@ -26,10 +26,10 @@ class GeneralClass{ //일반 클래스
 	public static void staticMethod() { //static 메소드
 		//선언
 		int generalVar2 = 300;
-		static int staticVar2 = 500;
+		//static int staticVar2 = 500; error
 		
-		//사용
-		System.out.println(generalVar);
+		//사용 
+		//System.out.println(generalVar); error
 		System.out.println(staticVar);
 		
 		GeneralClass gc = new GeneralClass();
@@ -37,10 +37,11 @@ class GeneralClass{ //일반 클래스
 	}
 }
 
+/* error
 static class StaticClass{ //static클래스는 내부 클래스만 가능
 	
 }
-
+*/
 
 
 public class StaticInstanceCompare {
@@ -48,7 +49,7 @@ public class StaticInstanceCompare {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		static int a =10;
+		//static int a =10; error
 
 	}
 
